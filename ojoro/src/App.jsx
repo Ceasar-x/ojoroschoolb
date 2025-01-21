@@ -18,7 +18,7 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ojoro">
       {loading && <Spinner />} {/* Show Spinner only when loading is true */}
       {!loading && <Navbar />} {/* Navbar visible after loading is complete */}
       {!loading && (
