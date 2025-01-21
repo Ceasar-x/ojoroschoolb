@@ -11,7 +11,7 @@ import back from "../../assets/back.jpg"
 import logo from "../../assets/logo.jpg"
 
 const Footer = () => {
-  const [email, setEmail] = useState("")
+  const [email, setEmail] = useState("");
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
